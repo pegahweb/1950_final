@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Meta site</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" 
+          href="css/styles.css" 
+          media="screen" />
+    <link rel="stylesheet" 
+          href="css/print_style.css" 
+          media="print" />
+    	<link href="https://fonts.googleapis.com/css?family=Exo+2:300,400" rel="stylesheet">
+	<!-- required -->	
+	<link rel="stylesheet" type="text/css" media="all" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- for better display in small devices -->
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> 
+    </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff"> 
+    </script>
+        <script src="js/stellarnav.js"></script>
+	   <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			jQuery('.stellarnav').stellarNav({
+				 // adds default color to nav. (light, dark)
+                  theme     : 'dark', 
+
+                  // number in pixels to determine when the nav should turn mobile friendly
+                  breakpoint: 768, 
+
+                  // adds a click-to-call phone link to the top of menu - i.e.: "18009084500"
+                  phoneBtn: false, 
+
+                  // adds a location link to the top of menu - i.e.: "/location/", "http://site.com/contact-us/"
+                  locationBtn: false, 
+
+                  // makes nav sticky on scroll
+                  sticky     : false, 
+
+                  // 'static' or 'top' - when set to 'top', this forces the mobile nav to be placed absolutely on the very top of page
+                  position: 'static', 
+
+                  // shows dropdown arrows next to the items that have sub menus
+                  showArrows: true, 
+
+                  // adds a close button to the end of nav
+                  closeBtn     : false, 
+
+                  // fixes horizontal scrollbar issue on very long navs
+                  scrollbarFix: false 
+			});
+		});
+	</script>
+    </head>
+    <body>
+        <div id="container">
+        <nav id="main-nav" class="stellarnav"> 
+    <ul>
+        <li><a href="index.html">Proto Site</a></li>
+        <li><a href="intro.html">Introduction </a></li>
+        <li><a href="sitemap.html">Sitemap</a></li>
+        <li><a href="rationale.html">Rationale</a></li>
+    </ul>
+        </nav>
+    <header>
+        <h1>Meta Site</h1>
+        </header>
+
+    <main>
+                <section>
+            <h2>Proto Site</h2>
+            <p>Proto Site description goes here: + protosite URL</p>
+            <div class="container">
+                <a href="#" target="_blank"><img src="images/protosite.jpg" alt="Proto Site" id="centered"/></a>
+            <div class="center">Proto Site</div>
+            </div>
+        </section>          
+        </main>
+    <footer>
+        <div id="altnav">
+        </div>
+       <!--Designed by Pegah -->
+            <a href="http://validator.w3.org/check?uri=referer">validate</a>
+
+            </footer>
+            </div>
+    </body>
+       
+</html>

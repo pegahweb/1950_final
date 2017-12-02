@@ -1,0 +1,58 @@
+
+
+body, main{
+    color: black;
+    font: 12pt/15pt Georgia, "Times New Roman", Serif;
+	font-family:"arial";
+    float: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family:"times new roman";
+    page-break-after: avoid;
+}
+section{
+    page-break-after:always;
+}
+
+footer{
+	display:none;
+}
+nav{
+	display:none;
+}
+nav>ul{
+	/* a list of nav links is useless on a printout, might as well hide it */
+	display:none;
+}
+main{
+	padding:10px;
+	border:solid 2px #ccc;
+	border-width:0px 2px;
+	width:90%;
+	font-size:.85em;
+}
+/*
+be sure any external hyperlinks
+(those with hrefs that begin with "http://")
+will print out the entire URL 
+*/
+a[href^="http://"]:link:after, 
+a[href^="http://"]:visited:after{
+   content: " (URL: " attr(href) ") ";
+   font-size: 90%;
+}
+
+a:link, a:visited {
+    color: #309;
+    font-weight: bold;
+    text-decoration: underline;
+	}
+
+header img {
+	display:none;
+}
+
