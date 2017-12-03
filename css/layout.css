@@ -125,6 +125,12 @@ p, content{
 }
 
 
+.key_point {
+    color: LightSeaGreen;
+    padding: 15px 15px;
+}
+
+
 /*--------------------------Client has a wide screen-----------------------*/
 @media only screen and (min-width:760px){
 main{
