@@ -1,3 +1,7 @@
+
+/*CSS and HTML designed by Pegah Tavakoli, Jennifer Illner, and Kurtis Waterston
+Code for COMP1950 website re-design project */
+
 var IconChangeAlbum = ( function() {
     var $ = jQuery;
     var $html = $( 'html' );

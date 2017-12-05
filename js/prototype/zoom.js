@@ -1,3 +1,7 @@
+
+/*CSS and HTML designed by Pegah Tavakoli, Jennifer Illner, and Kurtis Waterston
+Code for COMP1950 website re-design project */
+
 var Zoom = ( function( jLoader, overlay, historyPushState, jGalleryTransitions, jGalleryArrayTransitions, jGalleryBackwardTransitions, AdvancedAnimation, IconChangeAlbum ) {
     var $ = jQuery;
     var $body = $( 'body' );

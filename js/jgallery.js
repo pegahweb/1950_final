@@ -1,3 +1,7 @@
+
+/*CSS and HTML designed by Pegah Tavakoli, Jennifer Illner, and Kurtis Waterston
+Code for COMP1950 website re-design project */
+
 ( function( refreshHTMLClasses, defaults, jGalleryTransitions, JGallery ) {
     var jGalleryCollection = [ '' ];
     var $ = jQuery;
